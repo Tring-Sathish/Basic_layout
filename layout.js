@@ -1,10 +1,10 @@
 let acc = document.getElementsByClassName("tab_button");
 //       for (let i = 0; i < acc.length; i++)
   
-      for (let a of acc.length){
+      for (let a of acc){
         a.addEventListener("click", function () {
 //           for (let j = 0; j < acc.length; j++)
-          for (let b of acc.length) {
+          for (let b of acc) {
             if(b.classList.contains("tab_button--active")) {
               b.classList.remove("tab_button--active");
             }
